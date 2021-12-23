@@ -10,7 +10,8 @@
   background-color: hsl(0, 100%, 99%);
   display: flex;
   align-items: center;
-  font-family: 'Open Sans', sans-serif
+  font-family: 'Open Sans', sans-serif;
+  align-self:;
 }
 
 .Sidebar {
@@ -28,9 +29,17 @@
   color: lightgreen;
 }
 
+.list-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
 .Contactslist {
+  display: flex;
+  flex-direction: column;
   width: 90%;
-  height: 100%;
 }
 
 .contactContainer {

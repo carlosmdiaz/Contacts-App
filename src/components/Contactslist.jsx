@@ -1,14 +1,14 @@
 import React from 'react'
 import Contact from './Contact'
 
-function Contactslist() {
+function Contactslist(props) {
     return (
         <div className='Contactslist'>
-            <div className="title">
-                <h1>Contacts</h1>
-            </div>
-            
-         <Contact/>
+         <Contact
+         name = {props.name}
+         phoneNumber = {props.phoneNumber}
+         image = {props.image}
+         />
         </div>
     )
 }
