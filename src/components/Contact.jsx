@@ -6,7 +6,7 @@ function Contact(props) {
     return (
         <div className='contactContainer'>
             <div className="imageContainer">
-                <img src={props.image}alt=""></img>
+                <img src={props.image || "https://iupac.org/wp-content/uploads/2018/05/default-avatar.png"}alt=""></img>
             </div>
 
             <div className="contactInfo">
